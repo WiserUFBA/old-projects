@@ -1,0 +1,69 @@
+@font-face {
+
+    font-family: Share Tech Mono;
+
+    src: url("../fonts/ShareTechMono-Regular.ttf");
+
+}
+
+html, body{
+	font-family: 'Share Tech Mono', monospace;
+	margin: 0;
+	height: 100%;
+}
+
+.outerWrapper {
+	position: relative;
+	min-height: 100%;
+	margin: 0 auto;
+}
+
+.row {
+	margin: auto;
+	text-align: center;
+}
+
+.opaque{
+	opacity: 0.4;
+	filter: alpha(opacity=40);  /* IE */
+}
+
+header {
+	height: 50px;
+	background-color: #DDD;
+	border-bottom: 1px solid black;
+	font-family: 'Share Tech Mono', monospace;
+	line-height: 50px;
+}
+
+	nav {
+		font-size: 0;
+	}
+
+		div.navigationItem {
+			padding: 0 30px;
+			display: inline-block;
+		}
+
+		a.navigationLink {
+			text-decoration: none;
+			color: #000;
+			text-align: center;	
+			font-size: 16pt;
+		}
+
+		span.navigationSeparator {
+			cursor: default;
+			font-size: 16pt;
+		}
+
+footer {
+	height: 30px;
+	line-height: 30px;
+	background-color: #DDD;
+	border-top: 1px solid black;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}

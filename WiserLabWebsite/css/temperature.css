@@ -1,0 +1,24 @@
+.mainContent {
+	padding: 15%;
+}
+
+.valueArea {
+	height: auto;
+	width: auto;
+	max-height: 280px;
+	max-width: 300px;
+	margin: 0 25px;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+#temperatureImage, #humidityImage {
+	max-height: 200px;
+	height: auto;
+	width: auto;
+}
+
+#temperatureText, #humidityText {
+	font-size: 22pt;
+	margin-bottom: 0;
+}

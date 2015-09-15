@@ -1,0 +1,13 @@
+.mainContent {
+	padding: 5%;
+}
+
+#presenceImage{
+	height: auto;
+	cursor: pointer;
+}
+
+#presenceText{
+	font-size: 26pt;
+	color: #333;
+}

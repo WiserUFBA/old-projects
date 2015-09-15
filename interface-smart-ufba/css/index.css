@@ -1,0 +1,79 @@
+/* GENERAL */
+
+	body {
+		padding: 20px 0 80px 0;
+		background: #333 url("../img/black_with_lines_pattern.jpg") repeat right top;
+	}
+
+/* LOGO */
+
+	img.logo {
+		margin: 0 auto;
+	}
+
+/* LOGIN */
+
+	.login {
+		padding: 10px 50px 30px 50px;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+	}
+
+
+	form .checkbox {
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+
+/* DESCRIPTION */
+
+	.description h3{
+		color: #fff;
+	}
+
+	.description p{
+		margin-top: 30px;
+		color: #eee;
+	}
+
+/* MEDIA QUERIES */
+
+	@media (max-width: 768px) {
+		body {
+			font-size: 12px;
+		}
+	    h3 {
+	        font-size: 40px;
+	    }
+	    p {
+	    	font-size: 20px;
+	    }
+	    .login {
+			padding: 0 30px 20px 30px;
+		}
+	}
+	@media (min-width: 768px) {
+	    h3 {
+	        font-size: 40px;
+	    }
+	    p {
+	    	font-size: 20px;
+	    }
+	}
+	@media (min-width: 992px) {
+	    h3 {
+	        font-size: 45px;
+	    }
+	    p {
+	    	font-size: 20px;
+	    }
+	}
+	@media (min-width: 1200px) {
+	    h3 {
+	        font-size: 50px;
+	    }
+	    p {
+	    	font-size: 22px;
+	    }
+	}

@@ -1,0 +1,24 @@
+.mainContent {
+	padding: 8%;
+}
+
+.valueArea {
+	height: auto;
+	width: auto;
+	max-height: 400px;
+	max-width: 400px;
+	margin: 0 25px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+#lightImage {
+	max-width: 300px;
+	height: auto;
+	width: 100%;
+	cursor: pointer;
+}
+
+#lightText {
+	font-size: 20pt;
+}

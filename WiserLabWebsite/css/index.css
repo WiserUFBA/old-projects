@@ -1,0 +1,23 @@
+.mainContent {
+	padding: 7.5%;
+}
+
+div.linkArea {
+	height: 200px;
+	width: 240px;
+	background-color: #DDD;
+	margin: 30px 75px;
+	display: inline-block;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 2px;
+}
+
+div.linkArea:hover{
+	background-color: #BBB;
+}
+
+a.link {
+	text-decoration: none;
+	color: #000;
+}
